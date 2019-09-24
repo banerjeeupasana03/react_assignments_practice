@@ -8,12 +8,14 @@
 
 import React from 'react';
 import {View, Text} from 'react-native';
-import {styles} from './styles/MyStyles';
+import styles from './styles/MyStyles';
+import Status from './comp/Status'
 
 function App() {
   return (
       <View style={styles.foo}>
-        <Text> Upasana Mukherjee's App</Text>
+        <Text style={styles.apptext}> Upasana Mukherjee's App</Text>
+        <Status />
       </View>
     );
 }

@@ -6,6 +6,12 @@ var styles = {
     justifyContent: "center",
     alignItem: "center",
     backgroundColor: "#ADD"
+  },
+
+  apptext: {
+    color: "black",
+    padding:10,
+    backgroundColor: "white"
   }
 };
 
