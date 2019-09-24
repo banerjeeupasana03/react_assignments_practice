@@ -5,7 +5,7 @@ import styles from '../styles/StatusStyles';
 function Status() {
   return (
     <View style={styles.status}>
-      <Text style={styles.statusText}> This is a new line </Text>
+      <Text style={styles.statusText}> This is a bottom status bar</Text>
     </View>
   )
 }
