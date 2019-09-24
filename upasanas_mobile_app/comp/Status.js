@@ -4,8 +4,8 @@ import styles from '../styles/StatusStyles';
 
 function Status() {
   return (
-    <View>
-      <Text> This is a new line </Text>
+    <View style={styles.status}>
+      <Text style={styles.statusText}> This is a new line </Text>
     </View>
   )
 }
