@@ -8,6 +8,7 @@ function Avatar() {
       <Image
         style={styles.avatarImg}
         source={require('../images/bird.jpg')}
+        resizeMode="cover"
        />
     </View>
   )
