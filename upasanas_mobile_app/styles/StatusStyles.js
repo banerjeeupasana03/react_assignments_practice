@@ -6,7 +6,10 @@ var styles = {
     position: "absolute",
     bottom:0,
     left:0,
-    padding:10
+    padding:10,
+    width:"100%",
+    alignItem:"center",
+    justifyContent:"center"
   },
 
   statusText: {
