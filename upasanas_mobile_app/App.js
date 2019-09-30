@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, TextInput} from 'react-native';
 import {DatePickerIOS,StyleSheet, ProgressBarAndroid} from 'react-native';
 import styles from './styles/MyStyles';
 import Status from './comp/Status';
@@ -38,6 +38,17 @@ function ImageBg(){
   </ImageBackground>
 );
 }
+
+export default function UsageOfTextInput() {
+  const [value, onChangeText] = React.useState('Input test here');
+
+  return (
+    <TextInput
+      style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
+      onChangeText={text => onChangeText(text)}
+      value={value}
+    />
+    );
 
 export default App;
 export default ImageBg;
