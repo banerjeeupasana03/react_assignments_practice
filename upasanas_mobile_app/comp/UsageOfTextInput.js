@@ -23,5 +23,5 @@ function UsageOfTextInput() {
     }
     />
   );
-
-  export default UsageOfTextInput;
+}
+export default UsageOfTextInput;
