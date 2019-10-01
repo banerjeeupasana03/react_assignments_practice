@@ -20,7 +20,7 @@ function ImageBg() {
         margin: 10
       }
     } >
-    <Text> The first component is image background < /Text>
+    <Text> The first component is image background </Text>
     </ImageBackground>
   );
 }

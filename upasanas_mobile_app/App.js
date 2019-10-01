@@ -23,7 +23,6 @@ function App() {
         <Avatar />
         <ImageBg />
         <UsageOfTextInput />
-        />
       </View>
     );
 }
