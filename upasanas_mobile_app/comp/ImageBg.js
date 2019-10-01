@@ -15,8 +15,8 @@ function ImageBg() {
       {
         width: '50%',
         height: '50%',
-        justifyContent: center,
-        alignItems: center,
+        justifyContent: 'center',
+        alignItems: 'center',
         margin: 10
       }
     } >
