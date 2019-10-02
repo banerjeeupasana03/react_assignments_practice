@@ -15,11 +15,11 @@ function SwitchInteraction() {
       }
     }
     onValueChange = {()=>{
-      if(this.state.switchValue){
-        this.setState({switchValue: false});
+      if(this.state.value){
+        this.setState({value: false});
         console.log("whatever false");
       } else {
-        this.setState({switchValue: true});
+        this.setState({value: true});
         console.log("whatever true");
       }
     }}
