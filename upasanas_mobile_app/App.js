@@ -14,6 +14,7 @@ import Status from './comp/Status';
 import Avatar from './comp/Avatar';
 import ImageBg from './comp/ImageBg';
 import UsageOfTextInput from './comp/UsageOfTextInput';
+import SwitchInteraction from './comp/SwitchInteraction';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Avatar />
         <ImageBg />
         <UsageOfTextInput />
+        <SwitchInteraction/>
       </View>
     );
 }
